@@ -4,7 +4,7 @@ import java.rmi.server.UnicastRemoteObject;
 public class CalculadoraImpl extends UnicastRemoteObject implements Calculadora {
 
     public CalculadoraImpl() throws RemoteException {
-        super(4002);
+        super();
     }
 
     public float suma (float op1, float op2) {
